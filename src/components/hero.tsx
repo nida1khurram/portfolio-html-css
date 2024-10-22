@@ -15,7 +15,7 @@ export default function Hero() {
            {/* right side start  */}
             <div className="box">
         <div className="pic-box">
-        <Image width={200} height={200} alt="logo" src={'/picture/home-img.png'}/>
+        <Image width={200} height={200} alt="logo" src={'/picture/home-img.png'} />
         </div>
         <div className="content">
             <h3>Hi</h3> 

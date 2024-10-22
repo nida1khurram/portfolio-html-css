@@ -174,6 +174,7 @@ transition: .5s ease ;
 
 /* right side */
 
+
    .box{
       width: 200px;
       margin: 0 auto;
@@ -222,16 +223,20 @@ transition: .5s ease ;
   max-width: 80%;
   margin: 30px auto;
 }
-/* .about-p{
+.about-p{
   font-size: 20px;
   margin: 20px 0 40px;
   text-align: justify;
   line-height: 24px;
- 
-    opacity: 0; 
+  border: 10px solid #ff6600;
+  border-radius: 30px;
+  padding: 20px;  
+  
+  
+  opacity: 0; 
     animation: slidep 1s ease forwards;
     animation-delay: 2s; 
-} */
+}
     /*about end  */
 
     /* contact page start */
@@ -247,23 +252,14 @@ transition: .5s ease ;
       line-height: 1.2;
       margin-bottom: 30px;
       text-align: center;
-    
-      /* opacity: 0;
-      animation: slideh1 1s ease forwards;
-      animation-delay: 1s; */
     }
-    /* .contact-container{
-      max-width: 60%;
-      margin: 50px auto;
-      border: 1px solid red
-    } */
+ 
     form{
       max-width: 50%;
       margin: auto;
       border: 10px solid #ff6600;
       border-radius: 20px;
       padding: 20px 20px;
-      /* display: flex; */
      display: grid;
      grid-template-columns: repeat(2, 1fr);
   
@@ -272,11 +268,7 @@ transition: .5s ease ;
       margin: 10px 0;
     }
     label{
-      font-size: 25px;
-     
-    /* margin-bottom: 50px; */
-    
-      
+      font-size: 25px; 
     }
     input{
       max-width: 100%;
@@ -304,9 +296,6 @@ textarea{
 .icon:hover{
   color: #ff6600;
 }
-
-
-
     /* end contact */
   /* animation hero page */
   @keyframes logoTop{
@@ -358,12 +347,12 @@ nav{
   margin:auto;
 }
 h1{
+  margin: 30px 30px;
   font-size: 46px;
-margin-left: 30px;
+
 }
 .container{   
   grid-template-columns: repeat(1, minmax(50%, 1fr));
-  /* align-items: center; */
   padding: 40px 10% ;
 }
 .home-content{
@@ -373,8 +362,33 @@ margin-left: 30px;
 .btn{
   margin:auto;
 }
+ /* hero right */
 .box{
-      width: 300px;
+      width: 200px;
       margin: 40px auto;
   }
+  /* contact */
+  form{
+    max-width: 100%;
+    margin: 30px 30px;
+    padding: 20px 20px;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+
+  }
+  .form-text{
+    margin: 20px 0;
+  }
+  label{
+    font-size: 20px;
+    
+  }
+
+.icon{
+font-size: 25px;
+margin: 0px 30px;
+gap: 25px;
+
+}
    } 
+
