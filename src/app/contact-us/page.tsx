@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 export default function ContactPage() {
@@ -9,7 +8,6 @@ export default function ContactPage() {
     <>
     <section>
         <h1 id="contact-h1">Contact Me</h1>
-       {/* <div className="contact-container"> */}
         <form action="contact">
             <div className="form-text">
             <label htmlFor="name"aria-placeholder="Your Name">Your Name : </label>
@@ -50,19 +48,8 @@ export default function ContactPage() {
                   <FaLinkedinIn className="text-2xl hover:text-blue-500" />
                 </Link>
                 </div>
-               
-                
-               
-
-                   
-               
             </div>
         </form>
-      
-       
-     
-   
-        {/* </div> */}
       </section>
     </>
   )

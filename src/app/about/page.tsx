@@ -6,7 +6,7 @@ export default function About() {
         <div className="about-con">
           <h1>  About Me </h1>
         <p className="about-p">
-        Hello! I'm Nida, a passionate Frontend Web Developer with a knack for crafting intuitive and visually appealing user interfaces. With a solid background in HTML, CSS, JavaScript, and modern frontend frameworks like React and Angular, I strive to create seamless and responsive web experiences.
+        Hello! I&#39;m Nida, a passionate Frontend Web Developer with a knack for crafting intuitive and visually appealing user interfaces. With a solid background in HTML, CSS, JavaScript, and modern frontend frameworks like React and Angular, I strive to create seamless and responsive web experiences.
         </p>
   
   <p className="about-p">
@@ -17,7 +17,7 @@ export default function About() {
   <p className="about-p">Performance Optimization: Crafting efficient code to enhance load times and user experience.
   Cross-Browser Compatibility: Making sure that all users have a consistent experience, regardless of their browser.</p>
   <p className="about-p">UI/UX Design: Collaborating with designers to create intuitive and user-friendly interfaces.
-  I am always excited to learn new technologies and keep up with industry trends. When I’m not coding, you can find me exploring new places, experimenting with new recipes, or catching up on the latest in tech and design.</p>
+  I am always excited to learn new technologies and keep up with industry trends. When I&#39;m not coding, you can find me exploring new places, experimenting with new recipes, or catching up on the latest in tech and design.</p>
   <p className="about-p">
   Thank you for visiting my portfolio. I look forward to the possibility of working with you and bringing your ideas to life!
   </p>
