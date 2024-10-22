@@ -6,7 +6,7 @@ export default function About() {
         <div className="about-con">
           <h1>  About Me </h1>
         <p className="about-p">
-        Hello! I&#39;m Nida, a passionate Frontend Web Developer with a knack for crafting intuitive and visually appealing user interfaces. With a solid background in HTML, CSS, JavaScript, and modern frontend frameworks like React and Angular, I strive to create seamless and responsive web experiences.
+        Hello! I&#39;m Nida, a passionate Frontend Web Developer with a knack for crafting intuitive and visually appealing user interfaces. With a solid background in HTML, CSS, JavaScript, TypeScript and modern frontend frameworks like Next.js, I strive to create seamless and responsive web experiences.
         </p>
   
   <p className="about-p">

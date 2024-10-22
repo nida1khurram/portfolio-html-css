@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -48,8 +49,15 @@ export default function ContactPage() {
                   <FaLinkedinIn className="text-2xl hover:text-blue-500" />
                 </Link>
                 </div>
+
+               
             </div>
         </form>
+        <div id="submit-btn">
+        <Link href={'/'} className="btn" >
+        Submit
+        </Link>
+        </div>
       </section>
     </>
   )

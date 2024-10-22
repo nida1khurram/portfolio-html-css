@@ -296,6 +296,12 @@ textarea{
 .icon:hover{
   color: #ff6600;
 }
+#submit-btn{
+  max-width: 200px;
+  margin: 15px auto;
+
+}
+
     /* end contact */
   /* animation hero page */
   @keyframes logoTop{
@@ -366,6 +372,20 @@ h1{
 .box{
       width: 200px;
       margin: 40px auto;
+  }
+  .box .pic-box{
+    transform-origin: 10% 20% 0;
+  }
+  .box .pic-box:after{
+    top: 50%;
+    left: 0%;}
+    .box:hover .pic-box{
+      transform: rotate(50deg);  
+  }
+  h3{
+    font-size: 30px;
+    margin-top: 10px;
+   margin-left: 60px;
   }
   /* contact */
   form{
